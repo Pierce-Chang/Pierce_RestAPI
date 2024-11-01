@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-u2f2tj_!gcmn7ztx=x*6#y**(&%wff+l7!2%8qaj=mh&^+1@ad
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pierceCodes.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'pierceCodes.pythonanywhere.com',
+    'localhost',
+    '127.0.0.1'
+    ]
 
 
 # Application definition
